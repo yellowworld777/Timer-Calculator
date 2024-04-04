@@ -1,0 +1,46 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Timer Calculator",
+        "description": "Description",
+        "min_engine_version": [
+            1,
+            20,
+            70
+        ],
+        "uuid": "2c31d48c-2d0a-49b2-ad77-e060e1d8ade0",
+        "version": [
+            1,
+            0,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "d0e44f38-435d-4e1c-9c27-b83e55fc382a",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "1f807bf2-744a-45f0-831d-4389ba11a6a9",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.10.0-beta"
+        }
+    ]
+}
